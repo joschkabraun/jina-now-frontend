@@ -53,7 +53,8 @@ def deploy_streamlit():
         st.image(img)
     setup_session_state()
     print('Run Streamlit with:', sys.argv)
-    _, host, port, output_modality, data = sys.argv
+#     _, host, port, output_modality, data = sys.argv
+    host, port, output_modality = 127.0.0.1, 80, 'image'
     da_img = None
     da_txt = None
 
