@@ -54,7 +54,7 @@ def deploy_streamlit():
     setup_session_state()
     print('Run Streamlit with:', sys.argv)
 #     _, host, port, output_modality, data = sys.argv
-    host, port, output_modality = "127.0.0.1", 80, 'image'
+    host, port, output_modality, data = "127.0.0.1", 80, 'image', 'custom_path'
     da_img = None
     da_txt = None
 
